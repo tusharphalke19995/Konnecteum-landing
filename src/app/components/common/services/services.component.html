@@ -1,0 +1,35 @@
+<section id="services" class="services-area  pb-70">
+    <div class="container-fluid">
+        <div class="section-title padding-top">
+            <h1>Our <span>Categories</span></h1>
+        </div>
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-2 col-md-6" [routerLink]="['/categoty-details']" *ngFor="let category of categoriesOne" (click)="onCategoryClick(category.id);">
+                <div class="single-services">
+                    <div class="services-img">
+                        <img [src]='category.imageUrl' alt="services-img">
+                    </div>
+                    <div class="services-content">
+                        <h6 class="commonfont text-font colorhead">{{category.categoryname}}</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-2 col-md-6" [routerLink]="['/categoty-details']" *ngFor="let category of categoriesTwo" (click)="onCategoryClick(category.id);">
+                <div class="single-services">
+                    <div class="services-img">
+                        <img [src]='category.imageUrl' alt="services-img">
+                    </div>
+                    <div class="services-content">
+                        <h6 class="commonfont text-font colorhead">{{category.categoryname}}</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+    </div>
+</section>

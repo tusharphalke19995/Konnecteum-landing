@@ -1,0 +1,22 @@
+<section class="pricing-area pt-100 pb-70 commonBackgnd">
+    <section class="subscribe-area ptb-100">
+        <div class="container">
+            <div class="category-details">
+                <div class="section-title text-left">
+                    <h3 class="text-font ">{{categories.categoryname}}</h3>
+                    <p class="mt-3 mw-100">{{categories.description}}</p>
+                </div>
+                <h4 class="text-left ml-3 text-font ">Skills</h4>
+                <div class="row m-3">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 skill-border ">
+                        <div class="row pt-3 pb-3 pl-3 pr-3 row-scroll">
+                            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 mt-2 mb-1 text-left" *ngFor="let skill of categories.skills">
+                                <p class="cat-skills text-font ">{{skill}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>

@@ -1,0 +1,143 @@
+<section id="work" class="work-area padding-top pb-70">
+    <div class="container-fluid">
+        <div class="section-title">
+            <h1>Our <span>Features</span></h1>
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-1 col-sm-1 col-xs-1"></div>
+            <div class="col-md-5 col-sm-5 col-xs-5">
+                <div class="work-owl-carousel owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="item-box-blog">
+                            <img alt="..." class="pull-right" style="height: 400px;width: 600px;" src="../../../../assets/img/Feature Images/ID Verification.png">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-box-blog">
+                            <img alt="..." class="pull-right" style="height: 400px;width: 600px;" src="../../../../assets/img/Feature Images/ut.png">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-box-blog">
+                            <img alt="..." class="pull-right" style="height: 400px;width: 600px;" src="../../../../assets/img/Feature Images/recommendations.png">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-box-blog">
+                            <img alt="..." class="pull-right" style="height: 400px;width: 600px;" src="../../../../assets/img/Feature Images/Fedback & Ratings.png">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-box-blog">
+                            <img alt="..." class="pull-right" style="height: 400px;width: 600px;" src="../../../../assets/img/Feature Images/Secure and trustworthy Payments.png">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-box-blog">
+                            <img alt="..." class="pull-right" style="height: 400px;width: 600px;" src="../../../../assets/img/Feature Images/2 Live chat.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 col-sm-5 col-xs-5">
+                <div class="m-t-45">
+                    <div *ngIf="currentPage == 5 || currentPage == -1">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <h3 class="color-blue">Identity verified Users</h3>
+                            </div>
+                        </div>
+                        <div class="row m-t-20">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <span class="pull-right">
+                                    Ientify of the Users on Konnecteum is verified before they can work on Projects for building
+                                    trust.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div *ngIf="currentPage == 0">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <h3 class="color-blue">User Timeline on Blockchain</h3>
+                            </div>
+                        </div>
+                        <div class="row m-t-20">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <span class="pull-right">
+                                    Blockchain Technology provides security and immutability to User Timeline which shows all
+                                    activities of the User from Onboarding to the latest activity with complete accuracy and transparency.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div *ngIf="currentPage == 1">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <h3 class="color-blue">Recommendation engine </h3>
+                            </div>
+                        </div>
+                        <div class="row m-t-20">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <span class="pull-right">
+                                    Recommendation Engine recommends the right Gigpreneur to the right Project and the right Project
+                                    to the right Gigpreneur.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div *ngIf="currentPage == 2">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <h3 class="color-blue">Immutable reviews and Ratings</h3>
+                            </div>
+                        </div>
+                        <div class="row m-t-20">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <span class="pull-right">
+                                    Reviews and ratings are stored on the immutable and tamperproof Blockchain. Good reviews
+                                    stimulate the decision to buy and sell services, Increase confidence and build credibility.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div *ngIf="currentPage == 3">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <h3 class="color-blue">Secure and trustworthy Payments</h3>
+                            </div>
+                        </div>
+                        <div class="row m-t-20">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <span class="pull-right">
+                                    Gigpreneurs start work only after Employers deposit money in Nodal account and
+      Employers pay only for the work they approve.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div *ngIf="currentPage == 4">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <h3 class="color-blue">Live chat and call facility</h3>
+                            </div>
+                        </div>
+                        <div class="row m-t-20">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <span class="pull-right">
+                                    Employers and Gigpreneurs can live chat or video call, share files and track progress of
+                                    the Project.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1 col-sm-1 col-xs-1"></div>
+        </div>
+    </div>
+</section>

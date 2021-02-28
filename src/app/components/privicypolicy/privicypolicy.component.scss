@@ -1,0 +1,138 @@
+.welcome-area {
+    width: 100%;
+    min-height: 768px;
+    max-height: 100%;
+    background-image: linear-gradient(to right bottom, #212C41 0%, #155782, #0896D2);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.headingoftrmscondions {
+    border-bottom: 1px solid #eeeeee;
+    width: 100%;
+    padding-bottom: 12px;
+}
+
+.headingoftrms {
+    padding-bottom: 12px;
+}
+
+hr {
+    border: 0.5px solid #07a7d5 !important;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    background-color: #f2f2f2;
+    height: 100vh;
+    padding: 2rem 1rem 0rem 2rem;
+    box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
+    // font-family: 'Segoe UI', sans-serif !important;
+    .column-1 {
+        width: 20%;
+        float: left;
+        // border-right: 1px solid #bbb;
+    }
+    .column-2 {
+        width: 80%;
+        float: left;
+        background-color: #fff;
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+        padding: 1px 1px 1px 1px;
+        div {
+            padding: 8px;
+        }
+    }
+}
+
+p {
+    color: black !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    background-color: #ffff !important;
+    height: 100vh;
+    padding: 2rem 1rem 0rem 2rem;
+    box-shadow: 0 2px 28px 0 rgb(0 0 0 / 6%);
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+h6 {
+    margin-bottom: 0;
+    font-weight: 600 !important;
+    color: #000000 !important;
+    line-height: 1;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.active {
+    outline: 1px solid #b3ecff;
+    cursor: pointer;
+    background-color: #b3ecff;
+    color: #07a7d5;
+    // font-family: 'Segoe UI', sans-serif !important;
+}
+
+.vertical-menu {
+    display: block !important;
+    width: 100%;
+    text-align: center;
+    list-style-type: none;
+    padding: 0px;
+    // font-family: 'Segoe UI', sans-serif !important;
+}
+
+ ::ng-deep .mat-card {
+    box-shadow: 0px !important;
+    border-radius: 0px !important;
+}
+
+.row-scroll {
+    max-height: 625px;
+    overflow: auto;
+}
+
+li {
+    color: #212121;
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    // font-family: 'Segoe UI', sans-serif !important;
+}
+
+li:after {
+    display: none;
+}
+
+a {
+    padding: 8px;
+}
+
+li {
+    /* color: #212121; */
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 17px !important;
+}
+
+@media(max-width:550px) {
+    .column-1 {
+        width: 40% !important;
+    }
+    .column-2 {
+        width: 60% !important;
+    }
+}

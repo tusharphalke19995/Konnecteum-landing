@@ -1,0 +1,56 @@
+.welcome-area {
+    width: 100%;
+    min-height: 768px;
+    max-height: 100%;
+    background-image: linear-gradient(to right bottom, #212C41 0%, #155782, #0896D2);
+}
+
+.example-box.cdk-drag-animating {
+    transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.example-chip .cdk-drop-list-dragging {
+    transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+ ::ng-deep .mat-standard-chip {
+    transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    padding: 7px 12px;
+    border-radius: 16px;
+    align-items: center;
+    cursor: default;
+    min-height: 32px;
+    height: 1px;
+    background: #CCC !important;
+}
+
+.category-details {
+    box-shadow: 0 0 30px 0 rgb(67 67 67 / 15%);
+    background: #ffffff;
+    padding: 40px 35px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skill-border {
+    border: 1px solid #f2f3f4
+}
+
+.cat-skills:before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 10px;
+    background: brown;
+    transform: rotate(47deg);
+    background: #07a7d5;
+}
+
+.row-scroll {
+    max-height: 400px;
+    overflow: auto;
+}

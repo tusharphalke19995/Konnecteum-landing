@@ -1,0 +1,15 @@
+.work-owl-carousel.owl-carousel.owl-theme{
+    position: relative !important;
+    top: 0;
+    left: 0;
+}
+.work-owl-carousel.owl-carousel.owl-theme .item{
+    margin-top: 50px !important;
+}
+
+::ng-deep .work-owl-carousel > .owl-dots{
+    position: absolute !important;
+    top: 1% !important;
+    left: 50% !important;
+    transform: translate(-50%,-50%) !important;
+}
